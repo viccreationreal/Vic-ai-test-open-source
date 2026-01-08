@@ -1,0 +1,10 @@
+name = "vicai"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+# Optional: enable logs during development
+# Uncomment if you want logs printed in Cloudflare dashboard
+# usage_model = "unbound"
+
+[vars]
+ENV = "production"
